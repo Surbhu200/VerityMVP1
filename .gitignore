@@ -1,0 +1,11 @@
+node_modules
+.next
+.npm-cache
+out
+dist
+.env
+.env*.local
+*.log
+data/local-products.json
+prisma/migrations
+node_modules/.prisma/client/*.tmp*

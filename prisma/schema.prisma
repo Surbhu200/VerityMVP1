@@ -1,0 +1,216 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum ProductStatus {
+  DRAFT
+  RESEARCHING
+  PUBLISHED
+  ARCHIVED
+}
+
+enum StudyType {
+  META_ANALYSIS
+  SYSTEMATIC_REVIEW
+  RANDOMIZED_CONTROLLED_TRIAL
+  COHORT
+  OBSERVATIONAL
+  CASE_STUDY
+  IN_VITRO
+  OTHER
+}
+
+enum ResearchSource {
+  CROSSREF
+  OPENALEX
+  SEMANTIC_SCHOLAR
+  MANUAL
+}
+
+enum ResearchJobStatus {
+  PENDING
+  PROCESSING
+  COMPLETED
+  FAILED
+}
+
+model Product {
+  id                  String            @id @default(cuid())
+  name                String
+  brand               String?
+  category            String
+  price               Decimal?          @db.Decimal(10, 2)
+  currency            String            @default("USD")
+  ingredients         Json
+  description         String?
+  imageUrls           String[]          @default([])
+  asin                String?           @unique
+  amazonAffiliateLink String
+  status              ProductStatus     @default(DRAFT)
+  createdAt           DateTime          @default(now())
+  updatedAt           DateTime          @updatedAt
+
+  researchLinks       ProductResearch[]
+  benefits            ProductBenefit[]
+  aiSummaries         AiSummary[]
+  score               ProductScore?
+  jobs                ResearchJob[]
+
+  @@index([category])
+  @@index([status])
+}
+
+model ResearchArticle {
+  id              String            @id @default(cuid())
+  doi             String?           @unique
+  title           String
+  authors         String[]
+  journal         String?
+  publicationYear Int?
+  studyType       StudyType         @default(OTHER)
+  sampleSize      Int?
+  citationCount   Int               @default(0)
+  url             String?
+  source          ResearchSource    @default(MANUAL)
+  createdAt       DateTime          @default(now())
+  updatedAt       DateTime          @updatedAt
+
+  productLinks    ProductResearch[]
+  benefits        ProductBenefit[]
+  aiSummaries     AiSummary[]
+
+  @@index([publicationYear])
+  @@index([studyType])
+}
+
+model ProductResearch {
+  id              String          @id @default(cuid())
+  productId       String
+  articleId       String
+  matchConfidence Float
+  rank            Int
+  rationale       String?
+  createdAt       DateTime        @default(now())
+
+  product         Product         @relation(fields: [productId], references: [id], onDelete: Cascade)
+  article         ResearchArticle @relation(fields: [articleId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, articleId])
+  @@unique([productId, rank])
+  @@index([matchConfidence])
+}
+
+model ProductBenefit {
+  id                  String           @id @default(cuid())
+  productId           String
+  verifiedByArticleId String?
+  claim               String
+  confidence          Float
+  displayOrder        Int
+  createdAt           DateTime         @default(now())
+
+  product             Product          @relation(fields: [productId], references: [id], onDelete: Cascade)
+  verifiedByArticle   ResearchArticle? @relation(fields: [verifiedByArticleId], references: [id], onDelete: SetNull)
+
+  @@index([productId])
+}
+
+model AiSummary {
+  id          String          @id @default(cuid())
+  productId   String
+  articleId   String
+  summary     String
+  efficacy    String
+  sideEffects String
+  dosage      String
+  limitations String
+  model       String
+  createdAt   DateTime        @default(now())
+
+  product     Product         @relation(fields: [productId], references: [id], onDelete: Cascade)
+  article     ResearchArticle @relation(fields: [articleId], references: [id], onDelete: Cascade)
+
+  @@unique([productId, articleId])
+}
+
+model ProductScore {
+  id             String   @id @default(cuid())
+  productId      String   @unique
+  healthScore    Int
+  valueScore     Int
+  evidenceGrade  String
+  valueGrade     String
+  explanation    String
+  calculatedAt   DateTime @default(now())
+
+  product        Product  @relation(fields: [productId], references: [id], onDelete: Cascade)
+}
+
+model ResearchJob {
+  id             String            @id @default(cuid())
+  productId      String
+  status         ResearchJobStatus @default(PENDING)
+  message        String?
+  attempts       Int               @default(0)
+  startedAt      DateTime?
+  completedAt    DateTime?
+  failedAt       DateTime?
+  createdAt      DateTime          @default(now())
+  updatedAt      DateTime          @updatedAt
+
+  product        Product           @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([status])
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String?   @unique
+  emailVerified DateTime?
+  image         String?
+  role          String    @default("USER")
+  accounts      Account[]
+  sessions      Session[]
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
