@@ -2,6 +2,31 @@
 
 A Next.js App Router marketplace where every product is connected to research articles, AI summaries, verified benefit claims, and transparent scoring.
 
+## Netlify MVP Deploy
+
+This repo is ready to deploy directly to Netlify as a public MVP. The marketplace pages use the checked-in `data/local-products.json` product data and fall back to mock data, so a database is optional for the first shareable version.
+
+1. Push this folder to a GitHub repository.
+2. In Netlify, choose **Add new site** > **Import an existing project** and connect the repo.
+3. Keep the detected settings from `netlify.toml`:
+
+```bash
+Build command: npm run build
+Publish directory: .next
+```
+
+4. Add these environment variables only if you want the admin/API workflow live:
+
+```bash
+NEXTAUTH_SECRET="generate-a-long-random-secret"
+NEXTAUTH_URL="https://your-netlify-site.netlify.app"
+ADMIN_EMAIL="you@example.com"
+ADMIN_PASSWORD="use-a-strong-password"
+DATABASE_URL="postgresql://..."
+```
+
+For the simplest Gmail-ready MVP link, you can skip `DATABASE_URL` and Supabase variables. Product ingestion on Netlify is not persistent without a hosted database or storage layer, but the public product experience will deploy and render.
+
 ## Quick Start
 
 1. Copy `.env.example` to `.env` and set `DATABASE_URL`, `NEXTAUTH_SECRET`, `ADMIN_EMAIL`, and `ADMIN_PASSWORD`.
