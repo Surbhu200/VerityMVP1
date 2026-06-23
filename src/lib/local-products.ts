@@ -1,5 +1,6 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import seedProducts from "../../data/local-products.json";
 import {
   cleanProductDescription,
   fallbackImage,
@@ -17,6 +18,8 @@ type LocalProductsFile = {
   products: MarketplaceProduct[];
 };
 
+const bundledProducts = seedProducts as LocalProductsFile;
+
 async function readLocalProductsFile(): Promise<LocalProductsFile> {
   try {
     const raw = await readFile(localProductsPath, "utf8");
@@ -24,7 +27,9 @@ async function readLocalProductsFile(): Promise<LocalProductsFile> {
 
     return { products: Array.isArray(parsed.products) ? parsed.products : [] };
   } catch {
-    return { products: [] };
+    return {
+      products: Array.isArray(bundledProducts.products) ? bundledProducts.products : []
+    };
   }
 }
 

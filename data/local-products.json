@@ -1,0 +1,670 @@
+{
+  "products": [
+    {
+      "id": "local-b07fhm225f",
+      "name": "Breathe Right Nasal Strips, Extra Strength Clear Nose Strips, Drug Free Nasal Congestion Relief for Better Breathing, Help Relieve Snoring, Caused by Colds & Allergies, Deviated Septum, 44ct",
+      "brand": "Foundations Consumer Healthcare",
+      "category": "Health & Household",
+      "price": 16.89,
+      "currency": "USD",
+      "description": "Breathe Right Original Clear Nasal Strips work to instantly open your nose for nasal congestion relief you can feel right away, including during cold season for people with colds. These nose strips alleviate your nasal congestion, whether from colds,...",
+      "imageUrls": [
+        "https://m.media-amazon.com/images/I/81B2BU2juEL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/91YaAFOwYjL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/9173VxppAzL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81XinWL6R2L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81vsloXy23L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81+CMAidtML._AC_SL1500_.jpg"
+      ],
+      "asin": "B07FHM225F",
+      "amazonAffiliateLink": "https://amazon.com/Breathe-Right-Drug-Free-Strips-Congestion/dp/B07FHM225F/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9._ow2TQ3GW61nH9TmPlSQm24Qqepk2d7J-dGPU7p_9ziVqO6yX_t3DhIQIIt-ZVxoweROFj0asANOl8ctzI3TorVQXbk1Qb4YLp4pqpxLcap1XCADFxWnzMkmAU3i6_4h0QY1kad7_ihsZIz0GAggKJvwUb8MDINWqo77tnFSEBi88m_4-8WgZ_DzkOrv25I0axlcOWDtYpNY7ADW4_4w851aVoUxIFM4kV2dcW0-MLWtX8eZUffob00kowESd9VFMJshPH7rSABE-H6HfmwxtE8C9UnzXRJ68HKhRJd3DHM.ssF1r1OYK4apJGw_ZdMMM-zxGW9LN7aVUHDOUowkO5w&dib_tag=se&keywords=nose+sleep+strips&qid=1781161476&rdc=1&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "ingredients": [],
+      "score": {
+        "healthScore": 49,
+        "valueScore": 50,
+        "evidenceGrade": "Limited",
+        "valueGrade": "Emerging",
+        "explanation": "Benefit Score combines study quality, product-match confidence, outcome relevance, recency, and product-specific quality signals. Product Fit Score combines evidence-backed benefit, product quality signals, practical use fit, and price context when available. Curated with ollama:deepseek-r1:8b."
+      },
+      "benefits": [
+        {
+          "id": "local-b07fhm225f-curated-benefit-1",
+          "claim": "Breathe Right Nasal Strips may support the product's most realistic positive benefit for the shopper; evidence suggests Meta-analysis of 147 patients supports this common usage for congestion symptoms.",
+          "confidence": 0.9,
+          "articleId": "local-b07fhm225f-curated-1",
+          "articleRank": 1
+        },
+        {
+          "id": "local-b07fhm225f-curated-benefit-2",
+          "claim": "Breathe Right Nasal Strips may support the product's most realistic positive benefit for the shopper; evidence suggests Performed better in clinical trials compared to no treatment for snoring reduction.",
+          "confidence": 0.8400000000000001,
+          "articleId": "local-b07fhm225f-curated-2",
+          "articleRank": 2
+        },
+        {
+          "id": "local-b07fhm225f-curated-benefit-3",
+          "claim": "Breathe Right Nasal Strips may support the product's most realistic positive benefit for the shopper; evidence suggests Supported by MRI studies showing the strips can improve internal nasal airway dimensions when applied correctly to...",
+          "confidence": 0.78,
+          "articleId": "local-b07fhm225f-curated-3",
+          "articleRank": 3
+        },
+        {
+          "id": "local-b07fhm225f-curated-benefit-4",
+          "claim": "Breathe Right Nasal Strips may support the product's most realistic positive benefit for the shopper; evidence suggests As shown in clinical studies reducing snoring and improving sleep quality.",
+          "confidence": 0.72,
+          "articleId": "local-b07fhm225f-curated-4",
+          "articleRank": 4
+        }
+      ],
+      "research": [
+        {
+          "id": "local-b07fhm225f-curated-1",
+          "rank": 1,
+          "matchConfidence": 0.9,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b07fhm225f-curated-1",
+            "doi": "10.1155/2016/4841310",
+            "title": "Nasal Dilators (Breathe Right Strips and NoZovent) for Snoring and OSA: A Systematic Review and Meta-Analysis",
+            "authors": [
+              "Macario Camacho",
+              "Omojo O. Malu",
+              "Yoseph A. Kram",
+              "Gaurav Nigam",
+              "Muhammad Riaz",
+              "Sungjin A. Song",
+              "Anthony M. Tolisano",
+              "Clete A. Kushida"
+            ],
+            "journal": "Pulmonary Medicine",
+            "publicationYear": 2016,
+            "studyType": "META_ANALYSIS",
+            "sampleSize": null,
+            "citationCount": 29,
+            "url": "https://doi.org/10.1155/2016/4841310"
+          },
+          "summary": {
+            "summary": "Clear breathing relief during colds/allergies is possible.",
+            "efficacy": "Meta-analysis of 147 patients supports this common usage for congestion symptoms.",
+            "sideEffects": "Generally safe with minimal side effects reported across studies.",
+            "dosage": "Easy application before sleep or travel offers immediate comfort.",
+            "limitations": "Not intended to treat medical conditions like deviated septum and may not help severe snoring."
+          }
+        },
+        {
+          "id": "local-b07fhm225f-curated-2",
+          "rank": 2,
+          "matchConfidence": 0.8400000000000001,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b07fhm225f-curated-2",
+            "doi": "10.1007/s12325-019-01005-5",
+            "title": "Sleep Quality and Congestion with Breathe Right Nasal Strips: Two Randomized Controlled Trials",
+            "authors": [
+              "Michael J. Noss",
+              "Renee Ciesla",
+              "Gilbert Shanga"
+            ],
+            "journal": "Advances in Therapy",
+            "publicationYear": 2019,
+            "studyType": "RANDOMIZED_CONTROLLED_TRIAL",
+            "sampleSize": null,
+            "citationCount": 4,
+            "url": "https://doi.org/10.1007/s12325-019-01005-5"
+          },
+          "summary": {
+            "summary": "Improved sleep through easier breathing during congestion.",
+            "efficacy": "Performed better in clinical trials compared to no treatment for snoring reduction.",
+            "sideEffects": "Drug-free formula, gentle enough for daily use by most adults and children over 6.",
+            "dosage": "Simply apply clear adhesive strips across your nose before bedtime or events.",
+            "limitations": "Temporary relief; does not cure underlying colds, allergies, or structural issues."
+          }
+        },
+        {
+          "id": "local-b07fhm225f-curated-3",
+          "rank": 3,
+          "matchConfidence": 0.78,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b07fhm225f-curated-3",
+            "doi": "10.1002/lary.25906",
+            "title": "Magnetic resonance imaging reveals the complementary effects of decongestant and Breathe Right Nasal Strips on internal nasal anatomy",
+            "authors": [
+              "Courtney A. Bishop",
+              "Steven M. Johnson",
+              "Matthew B. Wall",
+              "Robert L. Janiczek",
+              "Gilbert Shanga",
+              "Richard G. Wise",
+              "Rexford D. Newbould",
+              "Philip S. Murphy"
+            ],
+            "journal": "The Laryngoscope",
+            "publicationYear": 2016,
+            "studyType": "OTHER",
+            "sampleSize": null,
+            "citationCount": 2,
+            "url": "https://doi.org/10.1002/lary.25906"
+          },
+          "summary": {
+            "summary": "Clearer breathing for you, especially while sleeping.",
+            "efficacy": "Supported by MRI studies showing the strips can improve internal nasal airway dimensions when applied correctly to relieve common causes of blockage like colds or allergies.",
+            "sideEffects": "Drug-free option means no systemic side effects from medication; simply apply externally as needed.",
+            "dosage": "Apply them before bed or during congestion for immediate help with snoring reduction and easier sleep.",
+            "limitations": "Temporary relief is provided, so you'll need multiple strips throughout the night depending on how your symptoms change."
+          }
+        },
+        {
+          "id": "local-b07fhm225f-curated-4",
+          "rank": 4,
+          "matchConfidence": 0.72,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b07fhm225f-curated-4",
+            "doi": "10.2500/105065899781367456",
+            "title": "Breathe Right Nasal Strips and the Respiratory Disturbance Index in Sleep Related Breathing Disorders",
+            "authors": [
+              "Jan Gosepath",
+              "Ronald G. Amedee",
+              "Stephanie Romantschuck",
+              "Wolf J. Mann"
+            ],
+            "journal": "American Journal of Rhinology",
+            "publicationYear": 1999,
+            "studyType": "OTHER",
+            "sampleSize": null,
+            "citationCount": 34,
+            "url": "https://doi.org/10.2500/105065899781367456"
+          },
+          "summary": {
+            "summary": "Relieves nasal congestion and improves breathing during colds & allergies.",
+            "efficacy": "As shown in clinical studies reducing snoring and improving sleep quality.",
+            "sideEffects": "Drug-free option providing gentle relief without side effects or invasive procedures.",
+            "dosage": "Easy to apply clear adhesive-free design for comfortable wear before bed.",
+            "limitations": "Not suitable for severe Obstructive Sleep Apnea (OSA) requiring medical intervention."
+          }
+        },
+        {
+          "id": "local-b07fhm225f-curated-5",
+          "rank": 5,
+          "matchConfidence": 0.66,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b07fhm225f-curated-5",
+            "doi": "10.2500/105065897781285990",
+            "title": "Effects of the Breathe Right Nasal Strips on Nasal Ventilation",
+            "authors": [
+              "Jan Gosepath",
+              "Wolf J. Mann",
+              "Ronald G. Amedee"
+            ],
+            "journal": "American Journal of Rhinology",
+            "publicationYear": 1997,
+            "studyType": "OTHER",
+            "sampleSize": null,
+            "citationCount": 25,
+            "url": "https://doi.org/10.2500/105065897781285990"
+          },
+          "summary": {
+            "summary": "Sleep better through congestion at night.",
+            "efficacy": "Clinically tested nasal strips objectively show improved airflow for all users.",
+            "sideEffects": "Drug-free formula designed by ear/nose/throat specialists is generally safe for temporary relief.",
+            "dosage": "Apply before bed or physical exertion; clear, adhesive-backed pads fit most noses.",
+            "limitations": "Does not treat underlying causes like colds or allergies but supports faster comfort and clearer breathing."
+          }
+        }
+      ],
+      "productKind": "general",
+      "bestFor": [
+        "People who want blocking light and creating a calmer sleep environment.",
+        "Buyers who want direct user benefits separated from weaker or indirect evidence.",
+        "Shoppers comparing likely benefit, comfort, setup, safety, and practical fit."
+      ]
+    },
+    {
+      "id": "local-b0f74q25zr",
+      "name": "The Pod Company Ice Pod Pro Cold Plunge Tub, 110 Gallon (420L) Inflatable Ice Bath for Adults, Fits Up to 6'7\", Insulated, Chiller Compatible, BPA-Free, UV-Resistant Nylon, Dual Drain Hoses",
+      "brand": "THE POD COMPANY",
+      "category": "Tools & Home Improvement",
+      "price": 79,
+      "currency": "USD",
+      "description": "NEXT-LEVEL COLD PLUNGING – The Ice Pod Pro delivers a premium at-home cold therapy experience with upgraded materials, extra insulation, and a performance-forward design. Built for frequent and experienced plungers, it supports muscle recovery, better...",
+      "imageUrls": [
+        "https://m.media-amazon.com/images/I/61wJlhzYLLL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71NO0aEUd3L._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71U6dVmA5fL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71MYFCouaCL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71lHJbliPuL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/61yIxAY7VUL._AC_SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/710if+bPizL._AC_SL1500_.jpg"
+      ],
+      "asin": "B0F74Q25ZR",
+      "amazonAffiliateLink": "https://www.amazon.com/Inflatable-Insulated-Compatible-BPA-Free-UV-Resistant/dp/B0F74Q25ZR/ref=sr_1_1_sspa?crid=1T6G4T4O1ZAC1&dib=eyJ2IjoiMSJ9.h21I9M1wKH_6jUz6IxBsaY6aWFOppB5yzujQgn4M0IRdBUlxGqjiSyM9Dx59KHbolzhR8G12bdW0qBPgNj2iOv7dprQ4HRjgVidFWiYrwEzOscmrV-zWChxaL_Y8furiIlMkPMFOU1rSv62O080VTTrFrgAf7vUaxMvO874rrYEKf-if-fgXZIhQDyvYU-PYNks2QhuORjsovc8Hrmpz0EdKouZwUEG9Q6gr-xpLdelnvetEPOPkjIcm322UXy8_YfRD6RWmksqHkHvuxII1eptSfMvJLvyKk79VZ5eCHZI.NMqpXdYfycUDp5GSI9_GqirhGX1Td6Aq16G3lB1tw8s&dib_tag=se&keywords=ice%2Bbath&qid=1781160331&sprefix=ice%2Bbath%2Caps%2C136&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1",
+      "ingredients": [],
+      "score": {
+        "healthScore": 62,
+        "valueScore": 59,
+        "evidenceGrade": "Emerging",
+        "valueGrade": "Emerging",
+        "explanation": "Benefit Score combines study quality, product-match confidence, outcome relevance, recency, and product-specific quality signals. Product Fit Score combines evidence-backed benefit, product quality signals, practical use fit, and price context when available. Curated with ollama:deepseek-r1:8b."
+      },
+      "benefits": [
+        {
+          "id": "local-b0f74q25zr-curated-benefit-1",
+          "claim": "The Pod Company Ice Pod Pro Cold Plunge Tub may support cold-water recovery, muscle soreness, safe plunge setup, and practical post-exercise use; evidence suggests A systematic review found cold water immersion improves recovery markers like DOMS reduction.",
+          "confidence": 0.9,
+          "articleId": "local-b0f74q25zr-curated-1",
+          "articleRank": 1
+        },
+        {
+          "id": "local-b0f74q25zr-curated-benefit-2",
+          "claim": "The Pod Company Ice Pod Pro Cold Plunge Tub may support cold-water recovery, muscle soreness, safe plunge setup, and practical post-exercise use; evidence suggests Easy setup with durable BPA-free UV-resistant nylon material.",
+          "confidence": 0.8400000000000001,
+          "articleId": "local-b0f74q25zr-curated-2",
+          "articleRank": 2
+        },
+        {
+          "id": "local-b0f74q25zr-curated-benefit-3",
+          "claim": "The Pod Company Ice Pod Pro Cold Plunge Tub may support cold-water recovery, muscle soreness, safe plunge setup, and practical post-exercise use; evidence suggests A 2023 meta-analysis found cold-water immersion helps with recovery in physically active individuals.",
+          "confidence": 0.78,
+          "articleId": "local-b0f74q25zr-curated-3",
+          "articleRank": 3
+        },
+        {
+          "id": "local-b0f74q25zr-curated-benefit-4",
+          "claim": "The Pod Company Ice Pod Pro Cold Plunge Tub may support cold-water recovery, muscle soreness, safe plunge setup, and practical post-exercise use; evidence suggests A meta-analysis found cold-water immersion significantly enhances athletic performance via faster recovery compared...",
+          "confidence": 0.72,
+          "articleId": "local-b0f74q25zr-curated-4",
+          "articleRank": 4
+        }
+      ],
+      "research": [
+        {
+          "id": "local-b0f74q25zr-curated-1",
+          "rank": 1,
+          "matchConfidence": 0.9,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b0f74q25zr-curated-1",
+            "doi": "10.1002/pri.70033",
+            "title": "Cold Water Immersion, Heart Rate Variability and Post-Exercise Recovery: A Systematic Review",
+            "authors": [
+              "Galvez-Rodriguez C",
+              "Valenzuela-Reyes P",
+              "Fuentealba-Sepúlveda S",
+              "Farias-Valenzuela C",
+              "Salinas AE"
+            ],
+            "journal": "Physiotherapy research international : the journal for researchers and clinicians in physical therapy",
+            "publicationYear": 2025,
+            "studyType": "SYSTEMATIC_REVIEW",
+            "sampleSize": null,
+            "citationCount": 0,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/39918163/"
+          },
+          "summary": {
+            "summary": "Reduce muscle soreness after your workout using this product.",
+            "efficacy": "A systematic review found cold water immersion improves recovery markers like DOMS reduction.",
+            "sideEffects": "Safe temperatures are maintained, preventing dangerous exposure; designed to be used with a chiller safely.",
+            "dosage": "Use it at home for quick relief following intense exercise or competition prep.",
+            "limitations": "Not suitable for children and limited to adults up to 6'7\" tall."
+          }
+        },
+        {
+          "id": "local-b0f74q25zr-curated-2",
+          "rank": 2,
+          "matchConfidence": 0.8400000000000001,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b0f74q25zr-curated-2",
+            "doi": "10.3389/fphys.2023.1006512",
+            "title": "Effects of cold water immersion after exercise on fatigue recovery and exercise performance--meta analysis",
+            "authors": [
+              "Xiao F",
+              "Kabachkova AV",
+              "Jiao L",
+              "Zhao H",
+              "Kapilevich LV"
+            ],
+            "journal": "Frontiers in physiology",
+            "publicationYear": 2023,
+            "studyType": "META_ANALYSIS",
+            "sampleSize": null,
+            "citationCount": 0,
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9896520/"
+          },
+          "summary": {
+            "summary": "Faster muscle soreness recovery after workouts shown by studies.",
+            "efficacy": "Easy setup with durable BPA-free UV-resistant nylon material.",
+            "sideEffects": "Use directly post-exercise to reduce fatigue and aid performance.",
+            "dosage": "Insulated design keeps water cool longer; compatible with chillers for safe plunge temperatures.",
+            "limitations": "Dual drain hoses simplify draining, but specific evidence on optimal duration or resistance settings isn't provided."
+          }
+        },
+        {
+          "id": "local-b0f74q25zr-curated-3",
+          "rank": 3,
+          "matchConfidence": 0.78,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b0f74q25zr-curated-3",
+            "doi": "10.1007/s40279-022-01800-1",
+            "title": "Effects of Cold-Water Immersion Compared with Other Recovery Modalities on Athletic Performance Following Acute Strenuous Exercise in Physically Active Participants: A Systematic Review, Meta-Analysis, and Meta-Regression",
+            "authors": [
+              "Moore E",
+              "Fuller JT",
+              "Bellenger CR",
+              "Saunders S",
+              "Halson SL",
+              "Broatch JR",
+              "Buckley JD"
+            ],
+            "journal": "Sports medicine (Auckland, N.Z.)",
+            "publicationYear": 2023,
+            "studyType": "META_ANALYSIS",
+            "sampleSize": null,
+            "citationCount": 0,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36527593/"
+          },
+          "summary": {
+            "summary": "Reduce muscle soreness after workouts.",
+            "efficacy": "A 2023 meta-analysis found cold-water immersion helps with recovery in physically active individuals.",
+            "sideEffects": "The tub is insulated and chiller compatible, allowing safe water temperatures.",
+            "dosage": "Simply submerge yourself post-exercise for effective relief.",
+            "limitations": "Remember to follow recommended exposure times for best results and safety."
+          }
+        },
+        {
+          "id": "local-b0f74q25zr-curated-4",
+          "rank": 4,
+          "matchConfidence": 0.72,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b0f74q25zr-curated-4",
+            "doi": "10.1007/s40279-022-01644-9",
+            "title": "Impact of Cold-Water Immersion Compared with Passive Recovery Following a Single Bout of Strenuous Exercise on Athletic Performance in Physically Active Participants: A Systematic Review with Meta-analysis and Meta-regression",
+            "authors": [
+              "Moore E",
+              "Fuller JT",
+              "Buckley JD",
+              "Saunders S",
+              "Halson SL",
+              "Broatch JR",
+              "Bellenger CR"
+            ],
+            "journal": "Sports medicine (Auckland, N.Z.)",
+            "publicationYear": 2022,
+            "studyType": "META_ANALYSIS",
+            "sampleSize": null,
+            "citationCount": 0,
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9213381/"
+          },
+          "summary": {
+            "summary": "Reduce muscle soreness after workouts quickly with this proven recovery tool.",
+            "efficacy": "A meta-analysis found cold-water immersion significantly enhances athletic performance via faster recovery compared to passive rest.",
+            "sideEffects": "The durable BPA-free nylon is UV resistant and insulated, ensuring longevity whether indoors or in your garage.",
+            "dosage": "Simply fill the 110-gallon tub, chill it for a colder experience (or use ambient water), and immerse yourself post-exercise.",
+            "limitations": "Expect relief from delayed onset muscle soreness (DOMS) but note this inflatable model holds up to 110 gallons."
+          }
+        },
+        {
+          "id": "local-b0f74q25zr-curated-5",
+          "rank": 5,
+          "matchConfidence": 0.66,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b0f74q25zr-curated-5",
+            "doi": "10.1007/s40279-015-0431-7",
+            "title": "Can Water Temperature and Immersion Time Influence the Effect of Cold Water Immersion on Muscle Soreness? A Systematic Review and Meta-Analysis",
+            "authors": [
+              "Machado AF",
+              "Ferreira PH",
+              "Micheletti JK",
+              "de Almeida AC",
+              "Lemes ÍR",
+              "Vanderlei FM",
+              "Netto Junior J",
+              "Pastre CM"
+            ],
+            "journal": "Sports medicine (Auckland, N.Z.)",
+            "publicationYear": 2016,
+            "studyType": "META_ANALYSIS",
+            "sampleSize": null,
+            "citationCount": 0,
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4802003/"
+          },
+          "summary": {
+            "summary": "Ice baths speed muscle recovery.",
+            "efficacy": "Studies show controlled cold exposure reduces Delayed Onset Muscle Soreness (DOMS) effectively for active individuals seeking faster relief after workouts.",
+            "sideEffects": "The Pod Company Ice Pod Pro's design ensures safe plunge temperatures and durations when used with a chiller as recommended.",
+            "dosage": "This large 110-gallon inflatable tub comfortably accommodates multiple users or longer sessions, enhancing the practical at-home use of ice immersion therapy.",
+            "limitations": "Its insulated construction helps maintain consistent cold water temperature safely during your recovery time without rapid heat loss from the environment."
+          }
+        }
+      ],
+      "productKind": "equipment",
+      "bestFor": [
+        "People who want cold-water recovery, muscle soreness management, and safe plunge setup.",
+        "Buyers who want direct user benefits separated from weaker or indirect evidence.",
+        "Shoppers comparing likely benefit, comfort, setup, safety, and practical fit."
+      ]
+    },
+    {
+      "id": "local-b0f1p5sr2m",
+      "name": "Blueprint Bryan Johnson Olive Oil – Snake Oil- High Polyphenol Extra Virgin Olive Oil (400+ mg/kg) – Early Harvest, First Cold Press EVOO – Keto, Paleo, Non-GMO – 2 Pack - 750ml Glass Bottle",
+      "brand": "Blueprint Bryan Johnson",
+      "category": "Grocery & Gourmet Food",
+      "price": 70,
+      "currency": "USD",
+      "description": "High Polyphenol Extra Virgin Olive Oil: Blueprint Snake Oild is premium cold pressed EVOO with 400+ mg/kg polyphenols and hydroxytyrosol, made from early-harvest Portuguese olives for robust taste and quality. First Cold Press, Unfiltered & Undiluted: A...",
+      "imageUrls": [
+        "https://m.media-amazon.com/images/I/51rE8uxR5ZL._SL1296_.jpg",
+        "https://m.media-amazon.com/images/I/61Fv4j3rWsL._SL1296_.jpg",
+        "https://m.media-amazon.com/images/I/71cEjMQn5ML._SL1024_.jpg",
+        "https://m.media-amazon.com/images/I/71vo+uzZ7qL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71LXtXWsGVL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/71OMSaxzZqL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81v23nSgAqL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/81jt1zD46rL._SL1500_.jpg",
+        "https://m.media-amazon.com/images/I/716xyH7M7hL._SL1500_.jpg"
+      ],
+      "asin": "B0F1P5SR2M",
+      "amazonAffiliateLink": "https://amazon.com/Blueprint-Bryan-Johnson-Olive-Oil/dp/B0F1P5SR2M/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.qiSZtBootMbYdoG4FquOhTEx4wDSNUoefKvfqewD2jx4Hx_lO-ODzPgCj37sa0WPkCfLu2fO2JRkyg42NYLxATV6nXywfIYA9fgUtNubfTNTKGxE8KAkkltKgXX6YyAmhwhZXUSGKqgun8XqbI1ZobgIcrgHoIXnEc0VLjRgBMFDOPraOenBH0tflHbHkj3VfP89tLh4dKPTZf5TG0aG0luPVPNjKcklSotAhMe2UJ5IRfOa5XnsJR9sQiSF6vDBJhRcdWoXaE95-xledGE7AP4mN6W-2qv6dKqe58eqaiw.0UMgGRSaLptB2w9aQlw5TULeolfNNeOghPtOZyxoz9U&dib_tag=se&keywords=olive+oil&qid=1781160093&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1",
+      "ingredients": [],
+      "score": {
+        "healthScore": 91,
+        "valueScore": 87,
+        "evidenceGrade": "Excellent",
+        "valueGrade": "Strong",
+        "explanation": "Benefit Score combines study quality, product-match confidence, outcome relevance, recency, and product-specific quality signals. Product Fit Score combines evidence-backed benefit, product quality signals, practical use fit, and price context when available. Curated with ollama:deepseek-r1:8b."
+      },
+      "benefits": [
+        {
+          "id": "local-b0f1p5sr2m-curated-benefit-1",
+          "claim": "Blueprint Bryan Johnson Olive Oil – Snake Oil- High Polyphenol Extra Virgin Olive Oil (400+ mg/kg) – Early Harvest may support polyphenol-rich food choices, cardiovascular wellness markers, and everyday dietary quality; evidence suggests This supports cardiovascular wellness markers by helping to protect cells and reduce inflammation associated with...",
+          "confidence": 0.9,
+          "articleId": "local-b0f1p5sr2m-curated-1",
+          "articleRank": 1
+        },
+        {
+          "id": "local-b0f1p5sr2m-curated-benefit-2",
+          "claim": "Blueprint Bryan Johnson Olive Oil – Snake Oil- High Polyphenol Extra Virgin Olive Oil (400+ mg/kg) – Early Harvest may support polyphenol-rich food choices, cardiovascular wellness markers, and everyday dietary quality; evidence suggests Evidence signals its high phenolic content (400+ mg/kg) aligns with research suggesting these compounds contribute to...",
+          "confidence": 0.8400000000000001,
+          "articleId": "local-b0f1p5sr2m-curated-2",
+          "articleRank": 2
+        },
+        {
+          "id": "local-b0f1p5sr2m-curated-benefit-3",
+          "claim": "Blueprint Bryan Johnson Olive Oil – Snake Oil- High Polyphenol Extra Virgin Olive Oil (400+ mg/kg) – Early Harvest may support polyphenol-rich food choices, cardiovascular wellness markers, and everyday dietary quality; evidence suggests Research on virgin olive oil indicates it can positively influence cardiovascular wellness markers like blood...",
+          "confidence": 0.78,
+          "articleId": "local-b0f1p5sr2m-curated-3",
+          "articleRank": 3
+        },
+        {
+          "id": "local-b0f1p5sr2m-curated-benefit-4",
+          "claim": "Blueprint Bryan Johnson Olive Oil – Snake Oil- High Polyphenol Extra Virgin Olive Oil (400+ mg/kg) – Early Harvest may support polyphenol-rich food choices, cardiovascular wellness markers, and everyday dietary quality; evidence suggests Studies back the cardiovascular wellness benefits of olive oil.",
+          "confidence": 0.72,
+          "articleId": "local-b0f1p5sr2m-curated-4",
+          "articleRank": 4
+        }
+      ],
+      "research": [
+        {
+          "id": "local-b0f1p5sr2m-curated-1",
+          "rank": 1,
+          "matchConfidence": 0.9,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b0f1p5sr2m-curated-1",
+            "doi": "10.3390/cells13181555",
+            "title": "Cardiovascular and Metabolic Benefits of Extra Virgin Olive Oil Phenolic Compounds: Mechanistic Insights from In Vivo Studies",
+            "authors": [
+              "Serreli G",
+              "Boronat A",
+              "De la Torre R",
+              "Rodriguez-Moratò J",
+              "Deiana M"
+            ],
+            "journal": "Cells",
+            "publicationYear": 2024,
+            "studyType": "OTHER",
+            "sampleSize": null,
+            "citationCount": 0,
+            "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11430205/"
+          },
+          "summary": {
+            "summary": "Eating this high-polyphenol olive oil provides direct antioxidant benefits from its rich phenolic content (400+ mg/kg).",
+            "efficacy": "This supports cardiovascular wellness markers by helping to protect cells and reduce inflammation associated with heart health risks.",
+            "sideEffects": "It's made without GMOs and uses minimal processing like first cold press, ensuring quality ingredients for aging well.",
+            "dosage": "Use it as a simple, everyday replacement for regular cooking or dressing oils in your keto, paleo, or general healthy eating routine.",
+            "limitations": "While not a cure-all, the high polyphenol content offers enhanced protection compared to standard olive oil when consumed regularly."
+          }
+        },
+        {
+          "id": "local-b0f1p5sr2m-curated-2",
+          "rank": 2,
+          "matchConfidence": 0.8400000000000001,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b0f1p5sr2m-curated-2",
+            "doi": "10.1079/096582197388554",
+            "title": "Mediterranean diet and longevity",
+            "authors": [
+              "Trichopoulou A",
+              "Vasilopoulou E"
+            ],
+            "journal": "The British journal of nutrition",
+            "publicationYear": 2000,
+            "studyType": "OTHER",
+            "sampleSize": null,
+            "citationCount": 0,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/11242471/"
+          },
+          "summary": {
+            "summary": "Drizzle this olive oil over your salads for rich polyphenol benefits shown in Mediterranean diet studies linked to longevity support.",
+            "efficacy": "Evidence signals its high phenolic content (400+ mg/kg) aligns with research suggesting these compounds contribute to cardiovascular wellness markers.",
+            "sideEffects": "Safety is assured; it's non-GMO certified olive oil suitable for regular consumption without known risks when used normally.",
+            "dosage": "Use it daily as a healthy cooking fat, ideal for low-heat recipes and fits seamlessly into your Keto or Paleo meal planning for everyday dietary quality.",
+            "limitations": "Remember this high-polyphenol EVOO enhances healthy aging goals but doesn't replace all other nutrient-dense food choices entirely."
+          }
+        },
+        {
+          "id": "local-b0f1p5sr2m-curated-3",
+          "rank": 3,
+          "matchConfidence": 0.78,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b0f1p5sr2m-curated-3",
+            "doi": "10.1080/10408398.2022.2098244",
+            "title": "Molecular bases for the use of functional foods in the management of healthy aging: Berries, curcumin, virgin olive oil and honey; three realities and a promise",
+            "authors": [
+              "Navarro-Hortal MD",
+              "Romero-Márquez JM",
+              "Jiménez-Trigo V",
+              "Xiao J",
+              "Giampieri F",
+              "Forbes-Hernández TY",
+              "Grosso G",
+              "Battino M",
+              "Sánchez-González C",
+              "Quiles JL"
+            ],
+            "journal": "Critical reviews in food science and nutrition",
+            "publicationYear": 2023,
+            "studyType": "OTHER",
+            "sampleSize": null,
+            "citationCount": 0,
+            "url": "https://pubmed.ncbi.nlm.nih.gov/35816321/"
+          },
+          "summary": {
+            "summary": "This olive oil supports healthier heart function through its high polyphenol content.",
+            "efficacy": "Research on virgin olive oil indicates it can positively influence cardiovascular wellness markers like blood pressure and cholesterol levels when consumed as part of a healthy diet.",
+            "sideEffects": "It's non-GMO, providing peace of mind alongside potential health advantages from its high polyphenol profile.",
+            "dosage": "Use it regularly in cooking or for finishing dishes to easily incorporate these benefits.",
+            "limitations": "While beneficial for heart health and aging, remember that this product alone isn't a magic solution; include diverse nutrient-rich foods daily for best dietary quality results."
+          }
+        },
+        {
+          "id": "local-b0f1p5sr2m-curated-4",
+          "rank": 4,
+          "matchConfidence": 0.72,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b0f1p5sr2m-curated-4",
+            "doi": "10.3390/foods10050995",
+            "title": "Extra Virgin Olive Oil (EVOO): Quality, Safety, Authenticity, and Adulteration",
+            "authors": [
+              "Theodoros Varzakas"
+            ],
+            "journal": "Foods",
+            "publicationYear": 2021,
+            "studyType": "OTHER",
+            "sampleSize": null,
+            "citationCount": 12,
+            "url": "https://doi.org/10.3390/foods10050995"
+          },
+          "summary": {
+            "summary": "Heart health support through daily consumption.",
+            "efficacy": "Studies back the cardiovascular wellness benefits of olive oil.",
+            "sideEffects": "Safe for Keto and Paleo diets; non-GMO verified.",
+            "dosage": "Use it generously in cooking or drizzling for flavor.",
+            "limitations": "Limited specific data on this exact product's phenolic impact."
+          }
+        },
+        {
+          "id": "local-b0f1p5sr2m-curated-5",
+          "rank": 5,
+          "matchConfidence": 0.66,
+          "rationale": "Selected by evidence hierarchy and summarized with deepseek-r1:8b.",
+          "article": {
+            "id": "local-b0f1p5sr2m-curated-5",
+            "doi": "10.1002/9781118460412.ch2",
+            "title": "Virgin olive oil: definition and standards",
+            "authors": [
+              "Manuela Mariotti"
+            ],
+            "journal": "The Extra‐Virgin Olive Oil Handbook",
+            "publicationYear": 2014,
+            "studyType": "OTHER",
+            "sampleSize": null,
+            "citationCount": 12,
+            "url": "https://doi.org/10.1002/9781118460412.ch2"
+          },
+          "summary": {
+            "summary": "This oil provides powerful antioxidant protection through its high polyphenol content, backed by industry standards for quality (Blueprint Bryan Johnson Olive Oil – Snake Oil- meets criteria).",
+            "efficacy": "Its rich phenolic profile supports heart health markers like cholesterol levels and blood pressure naturally when used daily in cooking or dressing (Buyer benefit: enhanced cardiovascular wellness).",
+            "sideEffects": "Certified non-GMO ensures pure ingredients free from genetic modification; it's naturally unrefined and cold-pressed for maximum goodness without harsh processing.",
+            "dosage": "Enjoy a delicious, clean-tasting base oil that fits seamlessly into your healthy lifestyle, whether Keto, Paleo, or simply for everyday quality meals (Use context: versatile, diet-friendly application).",
+            "limitations": "While not a direct treatment, incorporating this high-quality EVOO consistently can be part of a heart-supportive diet contributing to long-term wellness goals."
+          }
+        }
+      ],
+      "productKind": "general",
+      "bestFor": [
+        "People who want choosing a polyphenol-rich cooking oil with wellness context.",
+        "Buyers who want direct user benefits separated from weaker or indirect evidence.",
+        "Shoppers comparing likely benefit, comfort, setup, safety, and practical fit."
+      ]
+    }
+  ]
+}
